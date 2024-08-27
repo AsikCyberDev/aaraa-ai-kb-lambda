@@ -18,7 +18,7 @@ exports.handler = async function (event, context) {
         const createKnowledgeBaseParams = {
             KnowledgeBaseName: "MyKnowledgeBase",
             SourceUris: documentPaths,
-            // Additional parameters as needed
+            // Additional parameters as it is needed
         };
 
         const command = new CreateKnowledgeBaseCommand(createKnowledgeBaseParams);
